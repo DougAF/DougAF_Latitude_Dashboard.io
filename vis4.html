@@ -4,7 +4,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Visualization Dashboard: Latitude</title>
+  <title>Visualization Dashboard: Temperature Page</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
 </head>
@@ -18,7 +18,7 @@
                 </button>
             
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                  <ul class="navbar-nav mr-auto">
+                  <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
                         <!-- #link 'Home' to Landing Page -->
                       <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
@@ -36,7 +36,7 @@
                         <a class="dropdown-item" href="vis2.html">Cloudiness</a>
                         <a class="dropdown-item" href="vis3.html">Wind Speed</a>
                         <a class="dropdown-item" href="vis4.html">Temperature</a>
-                        
+                    </div> 
                     </li>
                     <li class="nav-item">
                             <!-- #link to Data used -->
@@ -51,7 +51,9 @@
                  
                 </div>
               </nav>
-            <!--End Navbar-->
+            <!--End Navbar-->              
+            <!-- Page Title -->
+               <br>
               <div class="container">
                     <div class="column">
                         <h3>Latitude vs Temperature: Summary</h3>
@@ -60,7 +62,8 @@
                 <div class="row">
                     <div class="col-md-12">
                       <img src="Latitude_vs_Temperature_Plot.png" alt="Latitude vs Temperature" />
-                      <p>Paragraph text here Paragraph text here Paragraph text here Paragraph text here Paragraph text here Paragraph text here</p>
+                      <h3>Analysis</h3>
+                      <p>As expected, we see a strong trend of cooling as cities deviate from the equator(lat=0). This is especially true in the northern hemisphere (lat > 0) where there is much more habitable land mass and thus a higher concentration of cities. It is however interesting to note that cities appear to cool more rapidly as latitude changes in the northern hemisphere than in the southern. Take for example latitudes -40 and 40. We see much lower average temperatures in the positive side, or northern hemisphere. One might begin to study weather patterns such as wind to seek further explaination. Or perhaps because it is currently winter and these cities recieve less energy from the sun at the the time sampled.</p>
                     </div>
                   </div>
                 </div>

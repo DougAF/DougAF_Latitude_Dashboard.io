@@ -4,7 +4,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Visualization Dashboard: Latitude</title>
+  <title>Visualization Dashboard: Home Page</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
   <link rel="stylesheet" href="style.css">
@@ -19,7 +19,7 @@
                 </button>
             
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                  <ul class="navbar-nav mr-auto">
+                  <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
                         <!-- #link 'Home' to Landing Page -->
                       <a class="nav-link disabled" href="#">Home <span class="sr-only">(current)</span></a>
@@ -54,19 +54,9 @@
               </nav>
                <!--End Navbar-->
   <!-- Header Home/'landing' page-->
-  <h1>Latitude : Project Explaination</h1>
-  
-  <!-- <div class="container">
-        <div class="jumbotron">
-          <h1 class="display-4">Jumbotron!</h1>
-          <p class="lead">This is placed inside a container</p>
-          <hr class="my-4">
-          <p>Here we can display some more text!</p>
-          <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-        </div>
-      </div> -->
-      <!-- #Landing Page (1) Project Explaination (2) Links to each vis page-->
-      <div class="row">
+  <div class="container">
+     <h1>Latitude : Project Explanation</h1> 
+           <div class="row">
             <div class="col">
                 <ul class="list-group">
                   <li class="list-group-item d-flex justify-content-between align-items-center">
@@ -81,11 +71,26 @@
                 </ul>
             </div>
           </div>
+  </div>
+
+  
+  
+  <!-- <div class="container">
+        <div class="jumbotron">
+          <h1 class="display-4">Jumbotron!</h1>
+          <p class="lead">This is placed inside a container</p>
+          <hr class="my-4">
+          <p>Here we can display some more text!</p>
+          <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+        </div>
+      </div> -->
+      <!-- #Landing Page (1) Project Explaination (2) Links to each vis page-->
+
 <!-- #Four Vis pages: (1) descriptive title and heading (2) plot/vis (3)paragraph -->
   <!-- Image -->
   <div class ="container">
-      <div class="col-md-8">
-            <img class="mr-3" src="#" alt="Spongebob!" />
+      <div class="col-md-6">
+            <img style='height: 100%; width: 100%; object-fit: contain' src="aerial-view-atmosphere-clouds-76969.jpg" alt="earth" />
         </div>
     <br>
 
@@ -98,26 +103,13 @@
           </div>
         </div>
     
-        <!-- Row 2
-        <div class="row">
-          <div class="col-md-3">
-                <img src="http://en.spongepedia.org/images/thumb/3/33/Spongebob!!!.jpg/180px-Spongebob!!!.jpg" alt="Spongebob!" />
-          </div>
-          <div class="col-md-3">
-                <img src="http://en.spongepedia.org/images/thumb/3/33/Spongebob!!!.jpg/180px-Spongebob!!!.jpg" alt="Spongebob!" />
-          </div>
-          <div class="col-md-3">
-                <img src="http://en.spongepedia.org/images/thumb/3/33/Spongebob!!!.jpg/180px-Spongebob!!!.jpg" alt="Spongebob!" />
-          </div>
-        </div> -->
-    
         <!-- Row 4 -->
         <div class="row">
           <div class="col-md-6">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti illo voluptates blanditiis nisi! Ullam dolore aspernatur, ratione error similique veniam iusto, labore repellat eaque nostrum optio doloribus illo nihil dolor?</p>
+            <p>For this assignment I accessed the application programing interface or API OpenWeatherMap API, linked in the above navbar</p>
           </div>
           <div class="col-md-6">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sequi ex quam quia iste, nemo molestias dolor, qui dolorem voluptatibus ipsa maxime voluptas et deserunt porro repellendus veritatis nesciunt quisquam.</p>
+            <p>Using Pandas and Matplotlib I was able to visualize the data fetched into singluar table called a DataFrame or DF. Using the data is this DF I created the 4 distinct visualizations included in this web page.</p>
           </div>
         </div>
       </div>
