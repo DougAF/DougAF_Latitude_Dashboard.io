@@ -72,44 +72,40 @@
             </div>
           </div>
   </div>
-
-  
-  
-  <!-- <div class="container">
-        <div class="jumbotron">
-          <h1 class="display-4">Jumbotron!</h1>
-          <p class="lead">This is placed inside a container</p>
-          <hr class="my-4">
-          <p>Here we can display some more text!</p>
-          <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-        </div>
-      </div> -->
-      <!-- #Landing Page (1) Project Explaination (2) Links to each vis page-->
-
-<!-- #Four Vis pages: (1) descriptive title and heading (2) plot/vis (3)paragraph -->
-  <!-- Image -->
+  <br>
   <div class ="container">
+      <div class="row">
       <div class="col-md-6">
             <img style='height: 100%; width: 100%; object-fit: contain' src="aerial-view-atmosphere-clouds-76969.jpg" alt="earth" />
         </div>
+        <div class="col-md-6">
+            <div class="whitebox"> 
+                <h6 class="title text-center" >Visualizations</h6>
+                <hr>
+                       <section class="clearfix"> 
+                    <a href = "vis2.html"><img class="img-thumbnail" src="Latitude_vs_Cloudiness_Plot.png" alt="Latitude vs Cloudiness" style='height: 40%; width: 40%; object-fit: contain'/></a>                        
+                    <a href = "vis1.html"><img class="img-thumbnail" src="Latitude_vs_Humidity_Plot.png" alt="Latitude vs Humidity" style='height: 40%; width: 40%; object-fit: contain' /></a>
+                    <a href = "vis4.html"><img class="img-thumbnail" src="Latitude_vs_Temperature_Plot.png" alt="Latitude vs Temperature" style='height: 40%; width: 40%; object-fit: contain' /></a>
+                    <a href = "vis3.html"><img class="img-thumbnail" src="Latitude_vs_Wind_Speed.png" alt="Latitude vs Wind Speed"  style='height: 40%; width: 40%; object-fit: contain'/></a>
+            </div>
+        </div>
+        </div>
+    </div >
     <br>
+
 
 <div class="container">
 
         <!-- Row 1 -->
         <div class="row">
-          <div class="col-md-6">
+          <div class="col-md-12">
             <h1>What was done</h1>
           </div>
-        </div>
-    
-        <!-- Row 4 -->
-        <div class="row">
           <div class="col-md-6">
-            <p>For this assignment I accessed the application programing interface or API OpenWeatherMap API, linked in the above navbar</p>
+            <p>For this assignment I was tasked with performing a weather check on 500+ cities across the globe. To do this I designed a program to randomly generate latitiude and longitude combinations, then to grab the city nearest to that geoloaction. After grabbing more than 500 cities with this method, I accessed the application programing interface or API OpenWeatherMap API, linked in the above navbar. With this list of city names being passed through another program that fetched weather data from this API, I created multiple lists and merged them into a DataFrame to use for visualizations. </p>
           </div>
           <div class="col-md-6">
-            <p>Using Pandas and Matplotlib I was able to visualize the data fetched into singluar table called a DataFrame or DF. Using the data is this DF I created the 4 distinct visualizations included in this web page.</p>
+            <p>Using Pandas and Matplotlib I was able to visualize the data fetched into singluar table called a DataFrame or DF. Using the data is this DF I created the 4 distinct visualizations included in this web page; Humidity, Cloudiness, Wind Speed, and Temerature as Y varaibles compared across the X varaible latitude. Hence the Website name. </p>
           </div>
         </div>
       </div>

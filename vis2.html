@@ -36,7 +36,7 @@
                         <a class="dropdown-item" href="vis2.html">Cloudiness</a>
                         <a class="dropdown-item" href="vis3.html">Wind Speed</a>
                         <a class="dropdown-item" href="vis4.html">Temperature</a>
-                        
+                      </div>  
                     </li>
                     <li class="nav-item">
                             <!-- #link to Data used -->
@@ -54,19 +54,32 @@
                <!--End Navbar-->
                 <!-- Page Title -->
                 <br>
-              <div class="container">
-                    <div class="column">
-                        <h3>Latitude vs Cloudiness: Summary</h3>
-                    </div>
-              <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                      <img src="Latitude_vs_Cloudiness_Plot.png" alt="Latitude vs Cloudiness" />
-                      <h3>Analysis</h3>
-                      <p>#######In this plot we see a weak association between the two variables. We can observe, on average, that cities appear to be settled in humid areas much more often than in arid ones. Additionally there is a strong cluster of cities between latitudes 40 and 65, and humidities 65% and 85%. The explanation for these two observations is likely very complex, having to do with the historical movement of human population and their need for fertile agricultural lands.</p>
-                    </div>
-                  </div>
-                </div>
+                <div class="container">
+                        <div class="row">
+                          <div class="col-md-7">
+                            <h3>Latitude vs Cloudiness: Summary</h3>
+                            <hr>
+                            <img src="Latitude_vs_Cloudiness_Plot.png" alt="Latitude vs Cloudiness" />
+                           <hr>
+                            <h3>Analysis</h3>
+                            <p> In the Cloudiness visualization we can see almost no trend with latitude. What is interesting however, is that the ciites appear to form lines at certian percentages; notably 0% cloudiness, 20% cloudiness, and around 75% cloudiness. This, I assume, has to do with the way we record the data. This is to say that these cities correlation to specfic cloud coverage percentages is likely an artifact of data collection/entry, rather than the an accurate representation of the 'true nature' of the cloud coverage. More research into how this API collects data would be needed to find answers on that point. </p>
+                        </div>
+                          <!-- <end col1>-->
+                            <div class="col-md-5">
+                                <div class="whitebox"> 
+                                  <h6 class="title text-center" >Visualizations</h6>
+                                <hr>
+                                 <section class="clearfix"> 
+                                    <a href = "vis2.html"><img class="img-thumbnail" src="Latitude_vs_Cloudiness_Plot.png" alt="Latitude vs Cloudiness" style='height: 40%; width: 40%; object-fit: contain'/></a>                        
+                                    <a href = "vis1.html"><img class="img-thumbnail" src="Latitude_vs_Humidity_Plot.png" alt="Latitude vs Humidity" style='height: 40%; width: 40%; object-fit: contain' /></a>
+                                    <a href = "vis4.html"><img class="img-thumbnail" src="Latitude_vs_Temperature_Plot.png" alt="Latitude vs Temperature" style='height: 40%; width: 40%; object-fit: contain' /></a>
+                                    <a href = "vis3.html"><img class="img-thumbnail" src="Latitude_vs_Wind_Speed.png" alt="Latitude vs Wind Speed"  style='height: 40%; width: 40%; object-fit: contain'/></a>
+                                </div>
+                            </section>
+                            </div>
+                          </div>
+                      </div>
+
                  <!-- JS -->
                 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
                 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>

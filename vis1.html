@@ -50,24 +50,35 @@
                 </div>
               </nav>
                <!--End Navbar-->
-               <!-- Page Title -->
+               <!-- Page Title image and analysis -->
                <br>
               <div class="container">
-                  <div class="column">
+                  <div class="row">
+                    <div class="col-md-7">
                       <h3>Latitude vs Humidity: Summary</h3>
-                  </div>
-              </div>
-              <!-- Image and text -->
-              <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
+                      <hr>
                       <img src="Latitude_vs_Humidity_Plot.png" alt="Latitude vs Humidity" />
+                     <hr>
                       <h3>Analysis</h3>
-                      <p>In this plot we see a weak association between the two variables. We can observe, on average, that cities appear to be settled in humid areas much more often than in arid ones. Additionally there is a strong cluster of cities between latitudes 40 and 65, and humidities 65% and 85%. The explanation for these two observations is likely very complex, having to do with the historical movement of human population and their need for fertile agricultural lands.</p>
-                        </p>
+                      <p>In this plot we see a weak association between the variables, latitude and humidity. We can observe, on average, that cities appear to be settled in humid areas much more often than in arid ones. Additionally there is a strong cluster of cities between latitudes 40 and 65, and humidities 65% and 85%. The explanation for these two observations is likely very complex, having to do with the historical movement of human population and their need for fertile agricultural lands.</p>
                     </div>
-                  </div>
+                    <!-- <end col1>-->
+                      <div class="col-md-5">
+                          <div class="whitebox"> 
+                            <h6 class="title text-center" >Visualizations</h6>
+                            <hr>
+                           <section class="clearfix"> 
+                                <a href = "vis2.html"><img class="img-thumbnail" src="Latitude_vs_Cloudiness_Plot.png" alt="Latitude vs Cloudiness" style='height: 40%; width: 40%; object-fit: contain'/></a>                        
+                                <a href = "vis1.html"><img class="img-thumbnail" src="Latitude_vs_Humidity_Plot.png" alt="Latitude vs Humidity" style='height: 40%; width: 40%; object-fit: contain' /></a>
+                                <a href = "vis4.html"><img class="img-thumbnail" src="Latitude_vs_Temperature_Plot.png" alt="Latitude vs Temperature" style='height: 40%; width: 40%; object-fit: contain' /></a>
+                                <a href = "vis3.html"><img class="img-thumbnail" src="Latitude_vs_Wind_Speed.png" alt="Latitude vs Wind Speed"  style='height: 40%; width: 40%; object-fit: contain'/></a>
+                                    </div>
+                            </section>
+                      </div>
+                    </div>
                 </div>
+                
+
                <!-- JS -->
                 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
                 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>

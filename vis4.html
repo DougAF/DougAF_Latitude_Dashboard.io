@@ -54,19 +54,31 @@
             <!--End Navbar-->              
             <!-- Page Title -->
                <br>
-              <div class="container">
-                    <div class="column">
+               <div class="container">
+                    <div class="row">
+                      <div class="col-md-7">
                         <h3>Latitude vs Temperature: Summary</h3>
+                        <hr>
+                        <img src="Latitude_vs_Temperature_Plot.png" alt="Latitude vs Temperature" />
+                       <hr>
+                        <h3>Analysis</h3>
+                        <p>As expected, we see a strong trend of cooling as cities deviate from the equator(lat=0). This is especially true in the northern hemisphere (lat > 0) where there is much more habitable land mass and thus a higher concentration of cities. It is however interesting to note that cities appear to cool more rapidly as latitude changes in the northern hemisphere than in the southern. Take for example latitudes -40 and 40. We see much lower average temperatures in the positive side, or northern hemisphere. One might begin to study weather patterns such as wind to seek further explaination. Or perhaps because it is currently winter and these cities recieve less energy from the sun at the the time sampled.</p>
                     </div>
-              <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                      <img src="Latitude_vs_Temperature_Plot.png" alt="Latitude vs Temperature" />
-                      <h3>Analysis</h3>
-                      <p>As expected, we see a strong trend of cooling as cities deviate from the equator(lat=0). This is especially true in the northern hemisphere (lat > 0) where there is much more habitable land mass and thus a higher concentration of cities. It is however interesting to note that cities appear to cool more rapidly as latitude changes in the northern hemisphere than in the southern. Take for example latitudes -40 and 40. We see much lower average temperatures in the positive side, or northern hemisphere. One might begin to study weather patterns such as wind to seek further explaination. Or perhaps because it is currently winter and these cities recieve less energy from the sun at the the time sampled.</p>
-                    </div>
+                      <!-- <end col1>-->
+                        <div class="col-md-5">
+                            <div class="whitebox"> 
+                              <h6 class="title text-center" >Visualizations</h6>
+                              <hr>
+                             <section class="clearfix"> 
+                                <a href = "vis2.html"><img class="img-thumbnail" src="Latitude_vs_Cloudiness_Plot.png" alt="Latitude vs Cloudiness" style='height: 40%; width: 40%; object-fit: contain'/></a>                        
+                                <a href = "vis1.html"><img class="img-thumbnail" src="Latitude_vs_Humidity_Plot.png" alt="Latitude vs Humidity" style='height: 40%; width: 40%; object-fit: contain' /></a>
+                                <a href = "vis4.html"><img class="img-thumbnail" src="Latitude_vs_Temperature_Plot.png" alt="Latitude vs Temperature" style='height: 40%; width: 40%; object-fit: contain' /></a>
+                                <a href = "vis3.html"><img class="img-thumbnail" src="Latitude_vs_Wind_Speed.png" alt="Latitude vs Wind Speed"  style='height: 40%; width: 40%; object-fit: contain'/></a>
+                             </div>
+                              </section>
+                        </div>
+                      </div>
                   </div>
-                </div>
                 <!-- JS -->
                 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
                 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
